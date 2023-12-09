@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h2>Calculate</h2>
+    <form method="post">
+        <p>
+            <input checked="checked" name="mode" type="radio" value="expression" />
+            <span>Expression mode</span>
+            <input name="mode" type="radio" value="string" />
+            <span>String mode</span>            
+        </p>
+        <p>
+            Input:
+            <input type='text' name='items[expression]' />
+        </p>
+        <p>
+            <input type='submit' value=' Корень ' />
+            <input type='submit' value=' Степень ' />
+        </p>
+        <p>
+            <input type='submit' value=' 1 ' />
+            <input type='submit' value=' 2 ' />
+            <input type='submit' value=' 3 ' />
+            <input type='submit' value=' = ' />
+        </p>
+        <p>
+            <input type='submit' value=' 4 ' />
+            <input type='submit' value=' 5 ' />
+            <input type='submit' value=' 6 ' />
+            <input type='submit' value=' + ' />
+            <input type='submit' value=' - ' />
+        </p>
+        <p>
+            <input type='submit' value=' 7 ' />
+            <input type='submit' value=' 8 ' />
+            <input type='submit' value=' 9 ' />
+            <input type='submit' value=' * ' />
+            <input type='submit' value=' / ' />
+        </p>
+    </form>
+</div>
